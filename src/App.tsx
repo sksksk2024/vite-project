@@ -11,7 +11,7 @@ function App() {
       <h1>Hesadasfasf</h1>
       <Header />
 
-      <main>
+      <main className="bg-white">
         <Hero />
 
         <Content />

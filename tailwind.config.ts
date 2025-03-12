@@ -1,4 +1,4 @@
-const { default: daisyui } = require('daisyui');
+import daisyui from 'daisyui';
 
 // tailwind.config.js
 module.exports = {
@@ -251,7 +251,6 @@ module.exports = {
         '2H': '0.125rem',
         '8H': '0.3125rem',
         '16H': '1rem',
-        '24H': '1.5rem',
         '32H': '2rem',
         '33.6H': '2.1rem',
         '40H': '2.5rem',
@@ -473,6 +472,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [daisyui],
 };
-require('daisyui');
