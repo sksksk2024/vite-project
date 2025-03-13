@@ -1,6 +1,7 @@
 const Today: React.FC = () => {
   return (
     <div
+      data-testid="today"
       id="link-shortener-today"
       className="flex flex-col justify-center items-center gap-6 bg-dark-violet px-16P py-48P text-center"
     >

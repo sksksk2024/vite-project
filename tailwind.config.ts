@@ -121,14 +121,14 @@ module.exports = {
         bounceCombo: 'bounceCombo 3.5s forwards',
       },
       colors: {
-        'very-dark-gray': 'var(--very-dark-gray)',
-        'dark-gray': 'var(--dark-gray)',
-        cyan: {
-          500: '#06b6d4', // Ensure cyan color exists
-        },
-        gray: {
-          500: '#6a7780',
-        },
+        cyan: 'var(--cyan)',
+        'dark-violet': 'var(--dark-violet)',
+        red: 'var(--red)',
+        gray: 'var(--gray)',
+        'gray-bg': 'var(--gray-bg)',
+        'grayish-violet': 'var(--grayish-violet)',
+        'very-dark-blue': 'var(--very-dark-blue)',
+        'very-dark-violet': 'var(--very-dark-violet)',
         border: {
           cyan: 'var(--cyan)',
           'light-grayish-blue': 'var(--light-grayish-blue)',

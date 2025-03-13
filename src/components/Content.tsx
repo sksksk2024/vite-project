@@ -118,7 +118,7 @@ const Content: React.FC = () => {
   }, [links]);
 
   return (
-    <section className="bg-gray-300 pb-32P">
+    <section data-testid="content" className="bg-gray-300 pb-32P">
       <div className="flex flex-col gap-24 relative bottom-96I">
         {/* Form */}
         <form
@@ -169,7 +169,7 @@ const Content: React.FC = () => {
                 <span className="text-cyan-600">{short}</span>
                 <button
                   onClick={() => handleCopy(short)}
-                  className="font-semibold text-black text-white bg-cyan rounded-5BR px-16P py-3 hover:opacity-60 w-[100%] lg:w-auto"
+                  className="font-semibold text-black text-white bg-cyan-500 rounded-5BR px-16P py-3 hover:opacity-60 w-[100%] lg:w-auto"
                 >
                   Copy
                 </button>
